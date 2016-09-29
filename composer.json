@@ -1,0 +1,22 @@
+{
+  "name": "aayaresko/laravel-language",
+  "description": "Multilingual routes and language switcher for laravel 5",
+  "keywords": ["laravel", "language", "multilingual", "languages"],
+  "require": {
+    "php": ">=5.6.4",
+    "laravel/framework": "5.3.*"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrey Yaresko",
+      "email": "aayaresko@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "aayaresko\\language\\": "src/"
+    }
+  }
+}
