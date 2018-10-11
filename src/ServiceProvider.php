@@ -5,14 +5,14 @@
 
 /**
  * Created by PhpStorm.
- * User: aayaresko
+ * User: igorianru
  * Date: 29.09.16
  * Time: 7:09
  *
- * @author Andrey Yaresko <aayaresko@gmail.com>
+ * @author Andrey Yaresko <igorianru@gmail.com>
  */
 
-namespace aayaresko\language;
+namespace igorianru\language;
 
 use Illuminate\Support\ServiceProvider as BaseService;
 

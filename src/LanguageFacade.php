@@ -5,19 +5,19 @@
 
 /**
  * Created by PhpStorm.
- * User: aayaresko
+ * User: igorianru
  * Date: 29.09.16
  * Time: 7:04
  *
- * @author Andrey Yaresko <aayaresko@gmail.com>
+ * @author Andrey Yaresko <igorianru@gmail.com>
  */
 
-namespace aayaresko\language;
+namespace igorianru\language;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see aayaresko\laravel\Language
+ * @see igorianru\laravel\Language
  */
 class LanguageFacade extends Facade
 {

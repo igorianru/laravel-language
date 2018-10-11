@@ -5,14 +5,14 @@
 
 /**
  * Created by PhpStorm.
- * User: aayaresko
+ * User: igorianru
  * Date: 28.09.16
  * Time: 17:34
  *
- * @author Andrey Yaresko <aayaresko@gmail.com>
+ * @author Andrey Yaresko <igorianru@gmail.com>
  */
 
-namespace aayaresko\language;
+namespace igorianru\language;
 
 use Illuminate\Support\Facades\App;
 
@@ -21,7 +21,7 @@ use Illuminate\Support\Facades\App;
  *
  * Controls the language version of the application.
  *
- * @package aayaresko\language
+ * @package igorianru\language
  */
 class Language
 {
