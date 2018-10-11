@@ -14,9 +14,9 @@
 
 namespace Igorianru\language;
 
-use Illuminate\Support\ServiceProvider as BaseService;
+use Illuminate\Support\ServiceProvider;
 
-class ServiceProvider extends BaseService
+class LanguageServiceProvider extends ServiceProvider
 {
     /**
      * Indicates if loading of the provider is deferred.

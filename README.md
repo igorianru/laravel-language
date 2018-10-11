@@ -15,11 +15,11 @@ or add
 to the require section of your composer.json.
 
 # Configuration
-After installing the Socialite library, register the igorianru\language\ServiceProvider in your <code>config/app.php</code> configuration file:
+After installing the Socialite library, register the igorianru\language\LanguageServiceProvider in your <code>config/app.php</code> configuration file:
 ```php
 'providers' => [
     // Other service providers...
-    igorianru\language\ServiceProvider::class,
+    igorianru\language\LanguageServiceProvider::class,
 ],
 ```
 Also, add the Language facade to the aliases array in your app configuration file:
