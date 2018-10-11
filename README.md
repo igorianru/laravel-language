@@ -6,25 +6,25 @@ The preferred way to install extension is via composer. Check the composer.json 
 
 To install, either run
 ```php
-$ php composer.phar require aayaresko/laravel-language "*"
+$ php composer.phar require igorianru/laravel-language "*"
 ```
 or add
 ```php
-"aayaresko/laravel-language": "*"
+"igorianru/laravel-language": "*"
 ```
 to the require section of your composer.json.
 
 # Configuration
-After installing the Socialite library, register the aayaresko\language\ServiceProvider in your <code>config/app.php</code> configuration file:
+After installing the Socialite library, register the igorianru\language\ServiceProvider in your <code>config/app.php</code> configuration file:
 ```php
 'providers' => [
     // Other service providers...
-    aayaresko\language\ServiceProvider::class,
+    igorianru\language\ServiceProvider::class,
 ],
 ```
 Also, add the Language facade to the aliases array in your app configuration file:
 ```php
-'Language' => aayaresko\language\LanguageFacade::class,
+'Language' => igorianru\language\LanguageFacade::class,
 ```
 
 # Usage
