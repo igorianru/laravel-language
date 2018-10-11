@@ -26,7 +26,7 @@
         "Igorianru\\language\\LanguageServiceProvider"
       ],
       "aliases": {
-        "Sitemap": "Igorianru\\language\\LanguageFacade"
+        "LanguageFacade": "Igorianru\\language\\LanguageFacade"
       }
     }
   }
