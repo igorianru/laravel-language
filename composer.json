@@ -17,7 +17,17 @@
   "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Igorianru\\language\\": "src/"
+      "Igorianru\\": "src/laravel-language"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Igorianru\\language\\LanguageServiceProvider"
+      ],
+      "aliases": {
+        "Sitemap": "Igorianru\\language\\LanguageFacade"
+      }
     }
   }
 }
