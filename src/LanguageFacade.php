@@ -12,12 +12,12 @@
  * @author Andrey Yaresko <igorianru@gmail.com>
  */
 
-namespace igorianru\language;
+namespace Igorianru\language;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see igorianru\laravel\Language
+ * @see Igorianru\laravel\Language
  */
 class LanguageFacade extends Facade
 {

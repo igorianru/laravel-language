@@ -12,7 +12,7 @@
  * @author Andrey Yaresko <igorianru@gmail.com>
  */
 
-namespace igorianru\language;
+namespace Igorianru\language;
 
 use Illuminate\Support\Facades\App;
 
