@@ -1,5 +1,5 @@
 {
-  "name": "igorianru/laravel-language",
+  "name": "igorianru/language",
   "description": "Multilingual routes and language switcher for laravel 5",
   "keywords": ["laravel", "language", "multilingual", "languages"],
   "require": {
