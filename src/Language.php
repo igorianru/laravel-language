@@ -32,7 +32,7 @@ class Language
     $cookie_locale = Cookie::get('locale') ? Crypt::decryptString(Cookie::get('locale')) : null;
 
     if($cookie_locale === null) {
-      if(($list = strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE']))) {
+      if(($list = strtolower($_SERVER['HTTP_ACCEPT_LANGUAGE'] ?? ''))) {
         if(preg_match_all('/([a-z]{1,8}(?:-[a-z]{1,8})?)(?:;q=([0-9.]+))?/', $list, $list)) {
           $this->locale = array_combine($list[1], $list[2]);
 
