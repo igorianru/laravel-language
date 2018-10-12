@@ -87,8 +87,11 @@ class Language
   public function getLocale()
   {
     $seg = $this->seg ?? request()->segment(1);
-    $this->setLocale($seg);
-    Cookie::queue('locale', request()->segment(1), time() + 3600 * 30);
+
+    if($seg) {
+      $this->setLocale($seg);
+      Cookie::queue('locale', request()->segment(1), time() + 3600 * 30);
+    }
 
     return App::getLocale();
   }
@@ -135,6 +138,7 @@ class Language
         ]
       );
     }
+
     return view('language::dropdown', ['current' => App::getLocale(), 'items' => $items]);
   }
 
@@ -177,6 +181,7 @@ class Language
 
       $template
     );
+
     return $content;
   }
 }
