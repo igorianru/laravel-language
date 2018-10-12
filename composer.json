@@ -2,6 +2,7 @@
   "name": "igorianru/laravel-language",
   "description": "Multilingual routes and language switcher for laravel 5",
   "keywords": ["laravel", "language", "multilingual", "languages"],
+  "type": "library",
   "require": {
     "php": ">=7.0",
     "laravel/framework": "5.5.*"
@@ -14,20 +15,9 @@
     }
   ],
   "minimum-stability": "dev",
-  "prefer-stable": true,
   "autoload": {
     "psr-4": {
-      "Igorianru\\": "src/laravel-language"
-    }
-  },
-  "extra": {
-    "laravel": {
-      "providers": [
-        "Igorianru\\language\\LanguageServiceProvider"
-      ],
-      "aliases": {
-        "LanguageFacade": "Igorianru\\language\\LanguageFacade"
-      }
+      "Igorianru\\language\\": "src/"
     }
   }
 }
